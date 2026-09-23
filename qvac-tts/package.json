@@ -1,0 +1,16 @@
+{
+  "name": "qvac-tts",
+  "version": "1.0.0",
+  "description": "A tiny on-device text-to-speech tool (CLI + web UI) built with Tether's QVAC SDK.",
+  "type": "module",
+  "main": "src/tts.js",
+  "scripts": {
+    "start": "node server.js",
+    "speak": "node src/tts.js"
+  },
+  "dependencies": {
+    "@qvac/sdk": "^0.19.0",
+    "express": "^4.19.2"
+  },
+  "license": "MIT"
+}
