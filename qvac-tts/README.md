@@ -53,6 +53,8 @@ click **Speak on-device**. The audio plays right in the page.
 
 ## How it works
 
+The web page keeps everything local too -- your text never leaves your computer to generate the voice.
+
 1. `loadModel()` loads a small text-to-speech model on-device.
 2. `textToSpeech()` synthesizes the audio locally — nothing is sent to a
    server.
